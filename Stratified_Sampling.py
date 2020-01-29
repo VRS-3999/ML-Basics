@@ -12,5 +12,7 @@ if __name__ == '__main__':
 
     print(housing["income_cat"].value_counts() / len(housing))
 
+    housing["income_cat"].hist(bins=50, figsize = (20,15))
+
     for set_ in (strat_train_set, strat_test_set):
         set_.drop("income_cat", axis=1, inplace=True)
