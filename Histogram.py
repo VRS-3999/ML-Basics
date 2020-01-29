@@ -9,7 +9,7 @@ def load_housing_data(housing_path = HOUSING_PATH):
     return pd.read_csv(csv_path)
 
 if __name__ == 'main':
-#    %matplotlib inline # only in a Jupyter notebook
+    %matplotlib inline # only in a Jupyter notebook
     housing = load_housing_data()
     housing.hist(bins=50, figsize=(20,15))
     plt.show()
