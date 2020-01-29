@@ -9,7 +9,7 @@ def load_housing_data(housing_path = HOUSING_PATH):
 
 if __name__ == '__main__':
     housing = load_housing_data()
-    housing.head()    
-    housing.info()
-    housing["ocean_proximity"].value_counts()    
-    housing.describe()
+    print(housing.head())    
+    print(housing.info())
+    print(housing["ocean_proximity"].value_counts())   
+    print(housing.describe())
