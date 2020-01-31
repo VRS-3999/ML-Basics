@@ -1,0 +1,10 @@
+1> Data_Fetching
+2> Loading_Data
+3> Histogram
+4> Test_Set
+5> Hash_Test_Set
+6> Sklearn_Test_Set
+7> Stratified_Sampling
+8> Visualize_Data
+9> Pandas_Scatter_Matrix
+10> New_Attributes
