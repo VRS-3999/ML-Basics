@@ -11,3 +11,9 @@
 9> Pandas_Scatter_Matrix
 10> Co-Relations
 11> New_Attributes
+12> PrepareData
+13> DataCleaning
+14> Imputer
+15> Handling_Categorial_Attributes
+16> Categorial_To_OneHotKey
+17> 
