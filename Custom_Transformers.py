@@ -18,3 +18,6 @@ if __name__ == '__main__':
             else:
                 return np.c_[X, rooms_per_household, population_per_household]
             
+    attr_adder = CombinedAttributesAdder(add_bedrooms_per_room=False)
+    housing_extra_attribs = attr_adder.transform(housing.values)
+    print(housing_extra_attribs)
