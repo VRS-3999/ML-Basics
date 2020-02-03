@@ -21,4 +21,8 @@
 19> DataFrame_Selector
 20> Categorial_&_Numerical_Pipeline
 21> Joining_Pipelines
-22> 
+22> LinearRegressor_Training
+23> MeanRootSquareError
+24> DecisionTreeRegressor
+25> Cross_Validation
+26> RandomForestRegressor
