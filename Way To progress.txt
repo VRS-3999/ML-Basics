@@ -16,4 +16,9 @@
 14> Imputer
 15> Handling_Categorial_Attributes
 16> Categorial_To_OneHotKey
-17> 
+17> Custom_Transformers
+18> Transformation_Pipelines
+19> DataFrame_Selector
+20> Categorial_&_Numerical_Pipeline
+21> Joining_Pipelines
+22> 
